@@ -9,7 +9,6 @@
 #curl -kvx localhost:3128 http://www.google.com/humans.txt
 
 FROM ubuntu:16.04
-MAINTAINER li haixin <lihaixin@15099.net>
 WORKDIR /root
 RUN apt-get update  && \
         apt-get -y install wget libappindicator3-1 && \
